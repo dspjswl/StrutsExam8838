@@ -1,0 +1,4 @@
+1.mvn clean
+2.mvn compile
+3.mvn jetty:run
+4.在浏览器上输入http://localhost:8080/StrutsExam8838/index_index.do

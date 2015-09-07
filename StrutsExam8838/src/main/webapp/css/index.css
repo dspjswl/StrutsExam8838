@@ -1,0 +1,100 @@
+#user_a .glyphicon.glyphicon-user {
+    /*position: absolute;*/
+    /*top: 13px;*/
+    /*margin: 13px auto;*/
+    font-size: xx-large;
+}
+
+.navbar-header,h1{
+    font-family: fantasy;
+}
+
+#logo {
+    height: 30px;
+    margin: 10px auto;
+}
+
+#submit {
+    border: 0px;
+    background: transparent;
+}
+a:hover{
+    cursor: pointer;
+}
+#user_ul.dropdown-menu{
+    background-color: #31b0d5;
+}
+#user_ul li a{
+    color: white;
+}
+#user_ul li a:hover{
+    color: black;
+}
+#loginmodal_btn.modal-footer{
+    text-align: center;
+}
+#bgimg1{
+    background-image: url("../image/iPhone6.png");
+    /*width:100%;*/
+    margin: 100px auto;
+    width: 1583px;
+    height: 717px;
+    background-size: cover;
+    /*height:100%;*/
+
+}
+.carousel-inner img{
+    width: 1800px;
+    height: 717px;
+    margin: 0px auto;
+    background-position: center center;
+    background-size: cover;
+}
+[class*="col-"]{
+    padding: 2px;
+}
+[class*="col-"] a img{
+    width: 100%;
+}
+#mycarousel{
+    width: 100%;
+}
+.carousel-indicators li{
+    background-color: black;
+}
+.carousel-indicators .active{
+    background-color: gray;
+}
+.row{
+    margin:100px 0px;
+}
+.coverstyle{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity:0;
+    position: absolute;
+}
+.coverstyle h1{
+    font-family: Consolas;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.coverstyle:hover{
+    background: black;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+#backimg{
+    background-image: url("../image/background.jpg");
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+/*ul.dropdown-menu{
+    position: absolute;
+    top: 55px;
+    background-color: #222;
+}*/
